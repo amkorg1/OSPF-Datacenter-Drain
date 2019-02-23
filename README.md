@@ -51,7 +51,8 @@ All areas are under Area 0.
 Traceroute from R8 to R7 and vice versa at opposite ends to show the best effect of Drain.
 
 <h2><p>Future improvements</p></h2>
-  Multithreading to be implemented to touch routers simultaneously.
+Leaf to be configured in different Areas.
+Multithreading to be implemented to touch routers simultaneously.
   
   <p> More Info </p>
    Script is written in Python
