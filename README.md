@@ -3,16 +3,16 @@
 Based on previous Lab , the topology considered here is Spine-Leaf.
 
 <h2><p>About Script</p></h2>
-The script provides you options
-Enter option
- 1 - Drain R1
- 2 - Drain R2
- 3 - Drain R3
- 4 - Drain R4
- 5 - Drain R5
- 6 - Drain R6
- 7 - Undrain
- 8 - Exit
+<p>The script provides you options
+<p>Enter option</p>
+<p> 1 - Drain R1</p>
+<p> 2 - Drain R2</p>
+<p> 3 - Drain R3</p>
+<p> 4 - Drain R4</p>
+<p> 5 - Drain R5</p>
+<p> 6 - Drain R6</p>
+<p> 7 - Undrain</p>
+<p> 8 - Exit</p>
  
 
 <h2><p>Physical Connections</p></h2>
