@@ -17,6 +17,7 @@ Based on previous Lab , the topology considered here is Spine-Leaf.
 
 <h2><p>Physical Connections</p></h2>
 All Routers connect int f2/1 connect to switch.
+Spine connects all Leaf.
   
 <h2><p>IP-Addressing</p> </h2>
 <p>Used a /24 network</p>
