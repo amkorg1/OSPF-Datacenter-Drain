@@ -53,6 +53,9 @@ Traceroute from R8 to R7 and vice versa at opposite ends to show the best effect
 <h2><p>Future improvements</p></h2>
 Leaf to be configured in different Areas.
 Multithreading to be implemented to touch routers simultaneously.
+AUtomate installation after mgmt IP is assigned.
+Error Handling
+
   
   <p> More Info </p>
    Script is written in Python
