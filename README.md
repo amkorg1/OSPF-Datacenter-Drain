@@ -25,39 +25,40 @@ Spine connects all Leaf.
 <p>Interface – 10.1.xX.x /24</p>
 
 Where x is lower router number and X is higher router number.
-10.1.(lower_router_Number)(Higher_router_Number).lower_router_Number
+10.1.(lower_router_Number)(Higher_router_Number).router_Number
+i.e 10.1.15.1
 
-So when R1 - connects to R5
+<p>So when R1 - connects to R5</p>
 
-R1
-interface 
-ip add 10.1.15.1
-!
-R5
-interface 
-ip add 10.1.15.5 
+<p>R1</p>
+<p>interface </p>
+<p>ip add 10.1.15.1</p>
+<p>!</p>
+<p>R5</p>
+<p>interface </p>
+<p>ip add 10.1.15.5 
 
-This way from traceroute we can easily decipher our path based on the digit in the last octet that represents Router number 
-and the third octet tells us about link. 
-for eg 10.1.15.5
-Last octet - 5 means its router 5
-3rd Octet - 15 tell us link between router 5 and router 1 
+<p>This way from traceroute we can easily decipher our path based on the digit in the last octet that represents Router number </p>
+<p>and the third octet tells us about link. </p>
+<p>for eg 10.1.15.5</p>
+<p>Last octet - 5 means its router 5</p>
+<p>3rd Octet - 15 tell us link between router 5 and router 1</p> 
 
 <h2><p>Management IP</p></h2> 
-For management IP subnet with Router give Linux VM IP-address in same subnet.
+<p>For management IP subnet with Router give Linux VM IP-address in same subnet.</p>
 
 <h2><p>Assumptions</p></h2> 
-All areas are under Area 0.
-Traceroute from R8 to R7 and vice versa at opposite ends to show the best effect of Drain.
+<p>All areas are under Area 0.</p>
+<p>Traceroute from R8 to R7 and vice versa at opposite ends to show the best effect of Drain.</p>
 
 <h2><p>Future improvements</p></h2>
-Leaf to be configured in different Areas.
-Multithreading to be implemented to touch routers simultaneously.
-AUtomate installation after mgmt IP is assigned.
-Error Handling
+<p>Leaf to be configured in different Areas.</p>
+<p>Multithreading to be implemented to touch routers simultaneously.</p>
+<p>Automate installation after mgmt IP is assigned.</p>
+<p>Error Handling</p>
 
   
   <p> More Info </p>
-   Script is written in Python
-   Used a Ubuntu VM
-   Used GNS3 to simulate
+   <p>Script is written in Python</p>
+   <p>Used a Ubuntu VM</p>
+   <p>Used GNS3 to simulate</p>
