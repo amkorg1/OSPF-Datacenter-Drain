@@ -53,7 +53,7 @@ i.e 10.1.15.1
 
 <h2><p>Future improvements</p></h2>
 <p>Leaf to be configured in different Areas.</p>
-<p>Multithreading to be implemented to touch routers simultaneously.</p>
+<p>Multithreading to be implemented to touch routers simultaneously - Implemented </p>
 <p>Automate installation after mgmt IP is assigned.</p>
 <p>Error Handling</p>
 
